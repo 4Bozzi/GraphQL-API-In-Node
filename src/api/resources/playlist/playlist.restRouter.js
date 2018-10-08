@@ -15,3 +15,6 @@ playlistRouter
   .get(playlistController.getOne)
   .put(playlistController.updateOne)
   .delete(playlistController.deleteOne);
+
+export const playlistRouter = express.Router()
+
