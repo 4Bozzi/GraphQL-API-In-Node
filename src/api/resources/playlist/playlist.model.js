@@ -6,10 +6,12 @@ export const schema = {
     required: [true, 'A playlist must have a title.']
   },
 
-  songs: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'song'
-  },
+  songs: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'song'
+    }
+  ],
 
   favorite: {
     type: Boolean,
