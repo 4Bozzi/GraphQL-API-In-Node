@@ -12,6 +12,10 @@ connect();
 // setup basic routing for index route
 
 app.use('/signin', signin);
+app.use('/api', protect, restRouter);
+// catch all
+app.all('*', (req, res) => {
+=======
 app.use('/api', restRouter);
 // catch all
 app.all('*', (req, res) => {
