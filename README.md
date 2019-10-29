@@ -1,1 +1,1 @@
-Figuring out how to make Node a API with MongoDB and then GraphQL.
+Figuring out how to make an API with Node and MongoDB and then GraphQL.
